@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7267AB1D61C9D300D35099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7267AA1D61C9D300D35099 /* main.m */; };
+		DD7267AE1D61C9D300D35099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7267AD1D61C9D300D35099 /* AppDelegate.m */; };
+		DD7267B11D61C9D300D35099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7267B01D61C9D300D35099 /* ViewController.m */; };
+		DD7267B41D61C9D300D35099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7267B21D61C9D300D35099 /* Main.storyboard */; };
+		DD7267B61D61C9D300D35099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7267B51D61C9D300D35099 /* Assets.xcassets */; };
+		DD7267B91D61C9D300D35099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7267B71D61C9D300D35099 /* LaunchScreen.storyboard */; };
+		DD7267C41D61C9D300D35099 /* learnYapDatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7267C31D61C9D300D35099 /* learnYapDatabaseTests.m */; };
+		DD7267CF1D61C9D300D35099 /* learnYapDatabaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7267CE1D61C9D300D35099 /* learnYapDatabaseUITests.m */; };
+		DD7267DF1D61CDE900D35099 /* MXKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7267DE1D61CDE900D35099 /* MXKVStorage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD7267C01D61C9D300D35099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD72679E1D61C9D300D35099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7267A51D61C9D300D35099;
+			remoteInfo = learnYapDatabase;
+		};
+		DD7267CB1D61C9D300D35099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD72679E1D61C9D300D35099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7267A51D61C9D300D35099;
+			remoteInfo = learnYapDatabase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD7267A61D61C9D300D35099 /* learnYapDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnYapDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7267AA1D61C9D300D35099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD7267AC1D61C9D300D35099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD7267AD1D61C9D300D35099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD7267AF1D61C9D300D35099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD7267B01D61C9D300D35099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD7267B31D61C9D300D35099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7267B51D61C9D300D35099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7267B81D61C9D300D35099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD7267BA1D61C9D300D35099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7267BF1D61C9D300D35099 /* learnYapDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnYapDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7267C31D61C9D300D35099 /* learnYapDatabaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnYapDatabaseTests.m; sourceTree = "<group>"; };
+		DD7267C51D61C9D300D35099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7267CA1D61C9D300D35099 /* learnYapDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnYapDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7267CE1D61C9D300D35099 /* learnYapDatabaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnYapDatabaseUITests.m; sourceTree = "<group>"; };
+		DD7267D01D61C9D300D35099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7267DD1D61CDE900D35099 /* MXKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXKVStorage.h; sourceTree = "<group>"; };
+		DD7267DE1D61CDE900D35099 /* MXKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXKVStorage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7267A31D61C9D300D35099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7267BC1D61C9D300D35099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7267C71D61C9D300D35099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD72679D1D61C9D300D35099 = {
+			isa = PBXGroup;
+			children = (
+				DD7267A81D61C9D300D35099 /* learnYapDatabase */,
+				DD7267C21D61C9D300D35099 /* learnYapDatabaseTests */,
+				DD7267CD1D61C9D300D35099 /* learnYapDatabaseUITests */,
+				DD7267A71D61C9D300D35099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7267A71D61C9D300D35099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7267A61D61C9D300D35099 /* learnYapDatabase.app */,
+				DD7267BF1D61C9D300D35099 /* learnYapDatabaseTests.xctest */,
+				DD7267CA1D61C9D300D35099 /* learnYapDatabaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7267A81D61C9D300D35099 /* learnYapDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				DD7267DC1D61CCC300D35099 /* MXKVStorage */,
+				DD7267AC1D61C9D300D35099 /* AppDelegate.h */,
+				DD7267AD1D61C9D300D35099 /* AppDelegate.m */,
+				DD7267AF1D61C9D300D35099 /* ViewController.h */,
+				DD7267B01D61C9D300D35099 /* ViewController.m */,
+				DD7267B21D61C9D300D35099 /* Main.storyboard */,
+				DD7267B51D61C9D300D35099 /* Assets.xcassets */,
+				DD7267B71D61C9D300D35099 /* LaunchScreen.storyboard */,
+				DD7267BA1D61C9D300D35099 /* Info.plist */,
+				DD7267A91D61C9D300D35099 /* Supporting Files */,
+			);
+			path = learnYapDatabase;
+			sourceTree = "<group>";
+		};
+		DD7267A91D61C9D300D35099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD7267AA1D61C9D300D35099 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD7267C21D61C9D300D35099 /* learnYapDatabaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7267C31D61C9D300D35099 /* learnYapDatabaseTests.m */,
+				DD7267C51D61C9D300D35099 /* Info.plist */,
+			);
+			path = learnYapDatabaseTests;
+			sourceTree = "<group>";
+		};
+		DD7267CD1D61C9D300D35099 /* learnYapDatabaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7267CE1D61C9D300D35099 /* learnYapDatabaseUITests.m */,
+				DD7267D01D61C9D300D35099 /* Info.plist */,
+			);
+			path = learnYapDatabaseUITests;
+			sourceTree = "<group>";
+		};
+		DD7267DC1D61CCC300D35099 /* MXKVStorage */ = {
+			isa = PBXGroup;
+			children = (
+				DD7267DD1D61CDE900D35099 /* MXKVStorage.h */,
+				DD7267DE1D61CDE900D35099 /* MXKVStorage.m */,
+			);
+			path = MXKVStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7267A51D61C9D300D35099 /* learnYapDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7267D31D61C9D300D35099 /* Build configuration list for PBXNativeTarget "learnYapDatabase" */;
+			buildPhases = (
+				DD7267A21D61C9D300D35099 /* Sources */,
+				DD7267A31D61C9D300D35099 /* Frameworks */,
+				DD7267A41D61C9D300D35099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learnYapDatabase;
+			productName = learnYapDatabase;
+			productReference = DD7267A61D61C9D300D35099 /* learnYapDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7267BE1D61C9D300D35099 /* learnYapDatabaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7267D61D61C9D300D35099 /* Build configuration list for PBXNativeTarget "learnYapDatabaseTests" */;
+			buildPhases = (
+				DD7267BB1D61C9D300D35099 /* Sources */,
+				DD7267BC1D61C9D300D35099 /* Frameworks */,
+				DD7267BD1D61C9D300D35099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7267C11D61C9D300D35099 /* PBXTargetDependency */,
+			);
+			name = learnYapDatabaseTests;
+			productName = learnYapDatabaseTests;
+			productReference = DD7267BF1D61C9D300D35099 /* learnYapDatabaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7267C91D61C9D300D35099 /* learnYapDatabaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7267D91D61C9D300D35099 /* Build configuration list for PBXNativeTarget "learnYapDatabaseUITests" */;
+			buildPhases = (
+				DD7267C61D61C9D300D35099 /* Sources */,
+				DD7267C71D61C9D300D35099 /* Frameworks */,
+				DD7267C81D61C9D300D35099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7267CC1D61C9D300D35099 /* PBXTargetDependency */,
+			);
+			name = learnYapDatabaseUITests;
+			productName = learnYapDatabaseUITests;
+			productReference = DD7267CA1D61C9D300D35099 /* learnYapDatabaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD72679E1D61C9D300D35099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ime;
+				TargetAttributes = {
+					DD7267A51D61C9D300D35099 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DD7267BE1D61C9D300D35099 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DD7267A51D61C9D300D35099;
+					};
+					DD7267C91D61C9D300D35099 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DD7267A51D61C9D300D35099;
+					};
+				};
+			};
+			buildConfigurationList = DD7267A11D61C9D300D35099 /* Build configuration list for PBXProject "learnYapDatabase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD72679D1D61C9D300D35099;
+			productRefGroup = DD7267A71D61C9D300D35099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7267A51D61C9D300D35099 /* learnYapDatabase */,
+				DD7267BE1D61C9D300D35099 /* learnYapDatabaseTests */,
+				DD7267C91D61C9D300D35099 /* learnYapDatabaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7267A41D61C9D300D35099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7267B91D61C9D300D35099 /* LaunchScreen.storyboard in Resources */,
+				DD7267B61D61C9D300D35099 /* Assets.xcassets in Resources */,
+				DD7267B41D61C9D300D35099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7267BD1D61C9D300D35099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7267C81D61C9D300D35099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7267A21D61C9D300D35099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7267B11D61C9D300D35099 /* ViewController.m in Sources */,
+				DD7267AE1D61C9D300D35099 /* AppDelegate.m in Sources */,
+				DD7267AB1D61C9D300D35099 /* main.m in Sources */,
+				DD7267DF1D61CDE900D35099 /* MXKVStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7267BB1D61C9D300D35099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7267C41D61C9D300D35099 /* learnYapDatabaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7267C61D61C9D300D35099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7267CF1D61C9D300D35099 /* learnYapDatabaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7267C11D61C9D300D35099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7267A51D61C9D300D35099 /* learnYapDatabase */;
+			targetProxy = DD7267C01D61C9D300D35099 /* PBXContainerItemProxy */;
+		};
+		DD7267CC1D61C9D300D35099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7267A51D61C9D300D35099 /* learnYapDatabase */;
+			targetProxy = DD7267CB1D61C9D300D35099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7267B21D61C9D300D35099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7267B31D61C9D300D35099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7267B71D61C9D300D35099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7267B81D61C9D300D35099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7267D11D61C9D300D35099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7267D21D61C9D300D35099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7267D41D61C9D300D35099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnYapDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.365ime.www.learnYapDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD7267D51D61C9D300D35099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnYapDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.365ime.www.learnYapDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD7267D71D61C9D300D35099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnYapDatabaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.365ime.www.learnYapDatabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnYapDatabase.app/learnYapDatabase";
+			};
+			name = Debug;
+		};
+		DD7267D81D61C9D300D35099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnYapDatabaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.365ime.www.learnYapDatabaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnYapDatabase.app/learnYapDatabase";
+			};
+			name = Release;
+		};
+		DD7267DA1D61C9D300D35099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnYapDatabaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.365ime.www.learnYapDatabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnYapDatabase;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD7267DB1D61C9D300D35099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnYapDatabaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.365ime.www.learnYapDatabaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnYapDatabase;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7267A11D61C9D300D35099 /* Build configuration list for PBXProject "learnYapDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7267D11D61C9D300D35099 /* Debug */,
+				DD7267D21D61C9D300D35099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7267D31D61C9D300D35099 /* Build configuration list for PBXNativeTarget "learnYapDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7267D41D61C9D300D35099 /* Debug */,
+				DD7267D51D61C9D300D35099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD7267D61D61C9D300D35099 /* Build configuration list for PBXNativeTarget "learnYapDatabaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7267D71D61C9D300D35099 /* Debug */,
+				DD7267D81D61C9D300D35099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD7267D91D61C9D300D35099 /* Build configuration list for PBXNativeTarget "learnYapDatabaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7267DA1D61C9D300D35099 /* Debug */,
+				DD7267DB1D61C9D300D35099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD72679E1D61C9D300D35099 /* Project object */;
+}
