@@ -10,4 +10,16 @@
 
 @interface MXKVStorage : NSObject
 
++ (MXKVStorage *)sharedStorage;
+
+- (void)setup;
+
+@end
+
+@interface MXKVStorage (Founction)
+
+- (void)saveItem:(id)item forKey:(NSString *)key inCollecion:(NSString *)collection;
+
+- (id)itemForKey:(NSString *)key inCollecion:(NSString *)collection;
+
 @end

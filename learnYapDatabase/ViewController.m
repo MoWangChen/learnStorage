@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "MXKVStorage.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -17,6 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)save:(id)sender {
+    
+    [[MXKVStorage sharedStorage] saveItem:@"xie" forKey:@"user" inCollecion:@"login"];
+}
+
+- (IBAction)read:(id)sender {
+    id item = [[MXKVStorage sharedStorage] itemForKey:@"user" inCollecion:@"login"];
+    
+    if (item) {
+        
+        _label.text = item;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
